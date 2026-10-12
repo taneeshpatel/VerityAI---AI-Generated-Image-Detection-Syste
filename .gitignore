@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Keep directory structure via .gitkeep while ignoring contents
+data/train/*
+!data/train/**/
+!data/train/**/.gitkeep
+data/test/*
+!data/test/**/
+!data/test/**/.gitkeep
+
+models/*.keras
+!models/.gitkeep
+
+outputs/*
+!outputs/**/.gitkeep
